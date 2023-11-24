@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="front.css">
+  <title>Custom Chocolate Pack</title>
+</head>
+<body>
+
+<div id="chocolate-selection">
+  <h2>Build Your Custom Chocolate Pack</h2>
+
+  <div class="chocolate-option">
+    <img src="https://www.ecellulitis.com/wp-content/uploads/2015/09/dark-chocolate.jpg" alt="">
+    <label>
+      <input type="checkbox" class="chocolate-checkbox" data-price="90"> Dark Chocolate
+    </label>
+    <input type="number" class="quantity-input" min="0" max="8" value="0">
+  </div>
+  <div class="chocolate-option">
+    <img src="https://www.lifesavvy.com/p/uploads/2020/01/99428159.jpg" alt="">
+    <label>
+      <input type="checkbox" class="chocolate-checkbox" data-price="50"> White Chocolate
+    </label>
+    <input type="number" class="quantity-input" min="0" max="8" value="0">
+  </div>
+
+  <div class="chocolate-option">
+    <img src="http://cdn.albaneseconfectionery.com/candy-store/images/products/popup/milk-chocolate-mini-peppermint-creams_1.jpg" alt="">
+    <label>
+      <input type="checkbox" class="chocolate-checkbox" data-price="40"> Milk Chocolate
+    </label>
+    <input type="number" class="quantity-input" min="0" max="8" value="0">
+  </div>
+
+  <div class="chocolate-option">
+    <img src="https://i.ytimg.com/vi/ghQhE_ctsLw/maxresdefault.jpg" alt="">
+    <label>
+      <input type="checkbox" class="chocolate-checkbox" data-price="60"> Raw Chocolate
+    </label>
+    <input type="number" class="quantity-input" min="0" max="8" value="0">
+  </div>
+
+  <div id="total-price">
+    <h3>Total Price: ₹<span id="price">0</span></h3>
+    <h4>Selected Items: <span id="selected-items">0</span>/8</h4>
+  </div>
+</div>
+
+<script src="front.js"></script>
+</body>
+</html>

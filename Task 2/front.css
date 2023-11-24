@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #chocolate-selection {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .chocolate-option {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+    
+  }
+  
+  .chocolate-checkbox {
+    margin-right: 5px;
+  }
+  
+  .quantity-input {
+    width: 40px;
+  }
+  
+  #total-price {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
